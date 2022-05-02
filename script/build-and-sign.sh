@@ -34,7 +34,7 @@ for platform in "${wheel_platforms_windows[@]}"; do
 done
 
 
-if [[ "${CI}" = true ]] || [[ -n "${GITHUB_ACTIONS}" ]]; then
+if [[ -n "${RELEASE_KEY_PASSPHRASE}" ]]; then
     echo "build: Decrypting signing key" >&2
     gpg --quiet --batch --yes --decrypt \
         --passphrase="${RELEASE_KEY_PASSPHRASE}" \

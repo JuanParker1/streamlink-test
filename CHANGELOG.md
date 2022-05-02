@@ -1,5 +1,12 @@
 # Changelog
 
+## streamlink 99.0.0 (2022-05-02)
+
+TEST RELEASE
+
+[Full changelog](https://github.com/streamlink/streamlink/compare/4.0.1...99.0.0)
+
+
 ## streamlink 4.0.1 (2022-05-01)
 
 No code changes.  
